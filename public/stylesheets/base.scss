@@ -67,27 +67,265 @@ a:hover {
 
 } 
 
-h1.homepage-header {
-  font-weight: 200;
-  color: #f86820;
-}
-
-div.global-footer {
+a {
+    color: #007bff;
+    text-decoration: none;
   
-   color: #666a73;
-   position: relative;
-   border-top: #666A73 solid 6px;
-   background: #282C35;
 }
-div.global-footer.a {
-   color: #D2D6DF;
-}
+
+
+
 div.carousel-inner{
-  position: relative;
-  margin-top: 2em;
-  margin-bottom: 2em;
-  width:100%;
- 
+    position: relative;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    width:100%;
+   
 
 
 }
+
+h1.homepage-header {
+    font-weight: 200;
+    color: #f86820;
+}
+
+div.card{
+    border-radius: 4px;
+}
+
+.card {
+    position: initial;
+    
+}
+.l-pad-bot-3 {
+    padding-bottom: 15px;
+}
+.l-pad-vert-2 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+
+.l-align-center {
+    text-align: center;
+}
+
+
+    div.global-footer {
+       
+        color: #666a73;
+        position: relative;
+        border-top: #666A73 solid 6px;
+        background: #282C35;
+    }
+    div.global-footer.a {
+        color: #D2D6DF;
+    }
+    
+    blockquote, body, dd, div, dl, dt, fieldset, form, h1, h2, h3, h4, h5, h6, input, li, ol, p, pre, td, textarea, th, ul {
+      
+        padding: 0;
+    }
+
+    body {
+        font-family: Benton Sans,-apple-system,BlinkMacSystemFont,Roboto,Helvetica Neue,Helvetica,Tahoma,Arial,sans-serif;
+        font-weight: 400;
+        
+        color: #666a73;
+    }
+    .bullet-list-ico li {
+        position: relative;
+        padding-top: 5px;
+    }
+    .bullet-list-ico {
+        list-style-type: none;
+        padding: 0;
+        margin-left: 1.5em;
+    }
+    ol, ul {
+        list-style: none;
+    }
+    
+    
+    jumbotron .btn {
+        display: inline-block;
+        padding: .75rem 1.5rem;
+        font-size: 1.5rem;
+    }
+    .btn-primary {
+        color: #fff;
+        background-color: #007BFE;
+        border-color: #007bff;
+        text-align: center;
+    }
+    a {
+        text-decoration: none;
+        color: #007f8c;
+    }
+    .card-img {
+        width: 30%;
+        padding: 1em;
+        margin: 3px;
+        border-radius: calc(.25rem - 1px);
+    }
+    footer {
+
+        position: relative;
+    }
+    #submit{
+        font-weight: 600;
+        color: #fff;
+        background-color: #f6682F;
+    }
+    a.navbar-brand {
+
+        color: #7A4E3D;
+      
+       
+        font-family: briteicons,"Benton Sans","Helvetica Neue",Helvetica,Roboto,Arial,sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        text-decoration: inherit;
+        display: inline;
+        vertical-align: baseline;
+    }
+    div.col-lg-3 {
+
+        color: #D2D6DF!important;
+    }
+    div.col-sm-12 {
+        color: #D2D6DF!important;
+    }
+
+
+    a {
+      color: #007bff;
+      text-decoration: none;
+    
+  }
+  
+  
+  
+  div.carousel-inner{
+      position: relative;
+      margin-top: 2em;
+      margin-bottom: 2em;
+      width:100%;
+     
+  
+  
+  }
+  
+  h1.homepage-header {
+      font-weight: 200;
+      color: #f86820;
+  }
+  
+  div.card{
+      border-radius: 4px;
+  }
+  
+  .card {
+      position: initial;
+      
+  }
+  .l-pad-bot-3 {
+      padding-bottom: 15px;
+  }
+  .l-pad-vert-2 {
+      padding-top: 10px;
+      padding-bottom: 10px;
+  }
+  
+  
+  .l-align-center {
+      text-align: center;
+  }
+  
+  
+      div.footer {
+         
+          color: #666a73;
+          position: relative;
+          border-top: #666A73 solid 6px;
+          background: #282C35;
+      }
+      div.footer.a {
+          color: #D2D6DF;
+      }
+      
+      blockquote, body, dd, div, dl, dt, fieldset, form, h1, h2, h3, h4, h5, h6, input, li, ol, p, pre, td, textarea, th, ul {
+        
+          padding: 0;
+      }
+  
+      body {
+          font-family: Benton Sans,-apple-system,BlinkMacSystemFont,Roboto,Helvetica Neue,Helvetica,Tahoma,Arial,sans-serif;
+          font-weight: 400;
+          
+          color: #666a73;
+      }
+      .bullet-list-ico li {
+          position: relative;
+          padding-top: 5px;
+      }
+      .bullet-list-ico {
+          list-style-type: none;
+          padding: 0;
+          margin-left: 1.5em;
+      }
+      ol, ul {
+          list-style: none;
+      }
+      
+      
+      jumbotron .btn {
+          display: inline-block;
+          padding: .75rem 1.5rem;
+          font-size: 1.5rem;
+      }
+      .btn-primary {
+          color: #fff;
+          background-color: #007BFE;
+          border-color: #007bff;
+          text-align: center;
+      }
+      a {
+          text-decoration: none;
+          color: #007f8c;
+      }
+      .card-img {
+          width: 30%;
+          padding: 1em;
+          margin: 3px;
+          border-radius: calc(.25rem - 1px);
+      }
+      footer {
+  
+          position: relative;
+      }
+      #submit{
+          font-weight: 600;
+          color: #fff;
+          background-color: #f6682F;
+      }
+      a.navbar-brand {
+  
+          color: #7A4E3D;
+        
+         
+          font-family: briteicons,"Benton Sans","Helvetica Neue",Helvetica,Roboto,Arial,sans-serif;
+          font-weight: 400;
+          font-style: normal;
+          text-decoration: inherit;
+          display: inline;
+          vertical-align: baseline;
+      }
+      div.col-lg-3 {
+  
+          color: #D2D6DF!important;
+      }
+      div.col-sm-12 {
+          color: #D2D6DF!important;
+      }
