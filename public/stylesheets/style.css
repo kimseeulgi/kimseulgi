@@ -187,7 +187,7 @@ div.card {
 .l-align-center {
   text-align: center; }
 
-div.footer {
+div.footer.row.marketing {
   color: #666a73;
   position: relative;
   border-top: #666A73 solid 6px;
